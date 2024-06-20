@@ -1,0 +1,5 @@
+- pandas : Transformação dos dados.
+- sqlalchemy: Manipular o banco de dados.
+- python-dotenv: Variavéis de ambiente.
+- psycopg2-binary: Manipular o postgres.
+- yfinance: biblioteca de dados.
