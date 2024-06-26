@@ -1,5 +1,6 @@
-- pandas : Transformação dos dados.
-- sqlalchemy: Manipular o banco de dados.
-- python-dotenv: Variavéis de ambiente.
-- psycopg2-binary: Manipular o postgres.
-- yfinance: biblioteca de dados.
+Bibliotecas:
+- pandas: Transformação de dados.
+- SQLAlchemy: Manipulação de banco de dados.
+- python-dotenv: Gestão de variáveis de ambiente.
+- psycopg2-binary: Conexão com PostgreSQL.
+- yfinance: Dados financeiros do Yahoo Finance.
