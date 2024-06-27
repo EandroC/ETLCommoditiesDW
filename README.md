@@ -10,3 +10,6 @@ Comandos terminal:
 - python src/extract_load.py
 - pip install dbt-postgres //pois vou usar o postgres
 - dbt init
+Observar se tudo deu certo:
+- cd dbsales_fz80
+- dbt debug
