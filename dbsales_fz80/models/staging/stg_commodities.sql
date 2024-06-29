@@ -1,3 +1,5 @@
+-- models/staging/stg_commodities.sql
+
 with source as (
     select
         "Date",
@@ -6,7 +8,7 @@ with source as (
     from 
         {{ source('dbsales_fz80', 'commodities') }}
 ),
--- Renomeando e mudando tipo
+
 renamed as (
     select
         cast("Date" as date) as data,
